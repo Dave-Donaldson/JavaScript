@@ -1,0 +1,51 @@
+<!doctype HTML>
+<html>
+
+    <head>
+    
+        <style type="text/css">
+        
+          
+            
+        </style>
+        
+               
+               
+               <title>loops in JavaScript</title>
+    
+        
+    
+    </head>
+    
+    <Body>
+
+        
+        <div id="tweetDiv"></div>
+            
+            
+        
+        <script type = "text/javascript">
+            
+            var tweetstring = "";
+            
+          
+            var tweets = ["Hi everyone", "I love cornflakes", "Night night :-)", "Sweet dreams!"];
+            
+            var i = 0;
+            
+            while (i < tweets.length) {
+            
+                tweetstring = tweetstring + "<p>" + tweets[i] + "<p>";
+                
+                i++;
+            
+        }
+            
+            document.getElementById("tweetDiv").innerHTML = tweetstring;
+            
+           
+        </script>
+    
+    </Body>
+        
+</html>
